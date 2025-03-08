@@ -14,7 +14,7 @@ public class No2_Indexes_of_subarray_sum {
         sc.close();
         ArrayList <Integer> res=subarr(arr, tar);
         for(int yo:res){
-        System.out.print(yo+" ");
+        System.out.print(yo+"  ");
     }
     }
     static ArrayList<Integer> subarr(int[]arr,int tar){
